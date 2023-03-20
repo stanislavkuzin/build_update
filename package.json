@@ -1,0 +1,27 @@
+{
+  "name": "homework62",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electronmon .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.1.4",
+    "electron-builder": "^23.6.0",
+    "electronmon": "^2.0.2"
+  },
+  "dependencies": {
+    "electron-updater": "^5.3.0"
+  },
+  "repository": "https://github.com/stanislavkuzin/build_update",
+  "publish": {
+    "provider": "github",
+    "releaseType": "release"
+  }
+}
